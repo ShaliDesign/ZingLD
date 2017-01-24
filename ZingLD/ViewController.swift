@@ -30,8 +30,8 @@ class ViewController: UIViewController {
         UIView.animate(withDuration: 4, animations: {
             self.Logo!.alpha = 1
         }, completion: { (finished) in
-            UIView.animate(withDuration: 3, animations: {
-                self.Text!.center = CGPoint(x: self.Logo!.center.x, y: 100)
+            UIView.animate(withDuration: 4, animations: {
+                self.Text!.center = CGPoint(x: self.Logo!.center.x, y: 500)
                 self.Text!.alpha = 1
             })
         })
