@@ -10,16 +10,31 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var Logo: UIImageView!
+    @IBOutlet weak var Text: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+     Logo!.alpha = 0
+     Text!.alpha = 0
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+       
     }
+    override func viewWillAppear(_ animated: Bool) {
 
-
+        super.viewWillAppear(animated)
+        UIView.animate(withDuration: 4, animations: {
+            self.Logo!.alpha = 1
+        }, completion: { (finished) in
+            UIView.animate(withDuration: 3, animations: {
+                self.Text!.center = CGPoint(x: self.Logo!.center.x, y: 100)
+                self.Text!.alpha = 1
+            })
+        })
+    }
 }
 

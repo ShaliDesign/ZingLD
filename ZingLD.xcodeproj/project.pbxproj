@@ -12,6 +12,7 @@
 		C01C34C71E380633003AD9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C34C51E380633003AD9F8 /* Main.storyboard */; };
 		C01C34C91E380633003AD9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01C34C81E380633003AD9F8 /* Assets.xcassets */; };
 		C01C34CC1E380633003AD9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C01C34CA1E380633003AD9F8 /* LaunchScreen.storyboard */; };
+		C01C34D51E380702003AD9F8 /* zing-mp3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C01C34D41E380702003AD9F8 /* zing-mp3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		C01C34C81E380633003AD9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C01C34CB1E380633003AD9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C01C34CD1E380633003AD9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C01C34D41E380702003AD9F8 /* zing-mp3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "zing-mp3.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,8 +62,17 @@
 				C01C34C81E380633003AD9F8 /* Assets.xcassets */,
 				C01C34CA1E380633003AD9F8 /* LaunchScreen.storyboard */,
 				C01C34CD1E380633003AD9F8 /* Info.plist */,
+				C01C34D31E3806D9003AD9F8 /* Resource */,
 			);
 			path = ZingLD;
+			sourceTree = "<group>";
+		};
+		C01C34D31E3806D9003AD9F8 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				C01C34D41E380702003AD9F8 /* zing-mp3.jpg */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -124,6 +135,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C01C34D51E380702003AD9F8 /* zing-mp3.jpg in Resources */,
 				C01C34CC1E380633003AD9F8 /* LaunchScreen.storyboard in Resources */,
 				C01C34C91E380633003AD9F8 /* Assets.xcassets in Resources */,
 				C01C34C71E380633003AD9F8 /* Main.storyboard in Resources */,
